@@ -1,0 +1,35 @@
+# Schedule Sync — Operational Boundary
+
+**Created:** 2026-11-08  
+**Last Updated:** 2026-11-08 10:15 CET  
+**Status:** **ACTIVE AUTOMATION LINKED**
+
+This file defines the operational interface between the user's baseline daily routine, active scheduled triggers, and synchronized external calendar data.
+
+## 1. Active Scheduled Automations
+
+| Local Time (`Europe/Zurich`) | Schedule Task | Deliverable Focus | Status |
+|---|---|---|---|
+| **07:20 Daily** | Morning Briefing | High-level milestones, calendar sanity check, day's reading target | **Active** (Mobile notification) |
+| **21:50 Daily** | Evening Wind Down | End-of-day shutdown check-in, Kobo reading transition (*Just Keep Buying*) | **Active** (Mobile notification) |
+
+## 2. Daily Routine Reference Intervals
+
+| Local Time | Routine Checkpoint | Type | Notification State |
+|---|---|---|---|
+| **07:20** | Start / resume work | Morning Anchor | **Active Scheduled Action** |
+| **12:10** | Lunch rest reminder | Energy / Rest Check | Routine Interval |
+| **13:20** | Resume work reminder | Focus Re-anchor | Routine Interval |
+| **18:10** | Dinner rest reminder | Energy / Rest Check | Routine Interval |
+| **19:00** | Start / resume work reminder | Evening Focus Block | Routine Interval |
+| **21:50** | Stop working; Kobo reading / rest | Night Anchor | **Active Scheduled Action** |
+
+*Note: Cancelled morning-weight, commuting, and generic health tracking remain disabled. AMS daily efficiency reflection operates as an independent review block.*
+
+## 3. Calendar Synchronization State
+
+- **Primary Timezone:** `Europe/Zurich` (CET/CEST)
+- **Snapshot Date:** 2026-11-08
+- **Connected Calendar Source:** Google Calendar
+- **Confirmed Fixed Commitments:** None recorded on connected Google Calendar for the current window.
+- **Boundary Warning:** External CERN Exchange/Outlook commitments are not mirrored in Google Calendar; assume routine blocks are open unless specifically updated or overridden by user prompt.

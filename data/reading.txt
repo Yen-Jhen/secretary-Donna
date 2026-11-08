@@ -1,0 +1,35 @@
+# Reading and Self-Study List
+
+**As of:** 2026-11-08  
+**Purpose:** Maintain substantive reading recommendations and actual reading status without conflating planned and completed books.
+
+## Reading preferences
+
+- Prefer high-concept-density writing, careful reasoning, useful mental models and arguments that change how one thinks.
+- Strong quantitative literacy from physics research; still learning finance-specific concepts. Do not recommend elementary arithmetic exposition merely because a book is about personal finance.
+- Examples, stories and case studies are welcome **when they reveal something substantive**. The objection is to thin arguments repeated for many pages, not narrative itself.
+- Appreciate *The 7 Habits of Highly Effective People* for reframing assumptions; also enjoy financial thinking, decision-making and personal development.
+- Avoid repetitive popular non-fiction and overlong explanations of obvious ideas. Be candid about whether a book is worth the reading time.
+
+## Known books and statuses
+
+| Book | Author | Status as last reported | Why it matters / note |
+|---|---|---|---|
+| *The 7 Habits of Highly Effective People* | Stephen R. Covey | **Read / discussed positively** | A favourite for its useful reframing of personal effectiveness and decisions. |
+| *Just Keep Buying* | Nick Maggiulli | **In progress** (about 60–70% reported on 2026-11-02) | Saving, investment principles and evidence-based personal finance. Finish before making it the sole basis for a decision. |
+| *The Wealth Ladder* | Nick Maggiulli | **Planned / discussed as likely next** | Framework for changing financial priorities with net-worth levels. Confirm whether started before marking it as read. |
+| *The Psychology of Money* | Morgan Housel | **Considered / planned** | Behaviour and financial decision-making; potentially useful, but may be less technically dense than preferred. |
+| Elon Musk biography (title/edition unconfirmed) | Unconfirmed | **Paused around halfway** | The writing style and wording did not appeal; no obligation to finish. Do not assume an edition/author. |
+
+## Suggested reading approach
+
+Read for conceptual gain rather than book count. For each completed book, optionally record: (1) one or two useful theses, (2) a claim worth challenging, (3) whether it affects a real decision. Do not build a cumbersome reading-log requirement.
+
+Before making further recommendations, check the current list and avoid re-recommending books the user has already rejected or found too shallow. For finance, differentiate **understanding a financial principle** from **choosing an asset allocation**; investment decisions also depend on liquidity needs, emergency reserves, jurisdiction and future obligations.
+
+## Lightweight update log
+
+| Date | Book | Progress/status | Worth retaining |
+|---|---|---|---|
+| 2026-11-02 | *Just Keep Buying* | Approximately 60–70% | User is actively learning about saving and investing rather than rushing into the market. |
+| 2026-11-08 | — | No further verified reading update available | Await user-reported progress. |
