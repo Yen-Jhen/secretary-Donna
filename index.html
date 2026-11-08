@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Donna — 個人工作空間</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <a class="brand" href="#overview"><span class="brand-mark">D</span><span>Donna<small>YOUR PERSONAL SPACE</small></span></a>
+      <p class="nav-label">你的工作空間</p>
+      <nav aria-label="頁面導覽">
+        <a href="#overview"><span>01</span>總覽</a>
+        <a href="#status"><span>✳</span>目前狀態</a>
+        <a href="#projects"><span>✳</span>研究專案</a>
+        <a href="#meetings"><span>✳</span>固定會議</a>
+        <a href="#schedule"><span>02</span>行程與日常</a>
+        <a href="#skills"><span>03</span>能力養成</a>
+        <a href="#reading"><span>04</span>閱讀清單</a>
+      </nav>
+      <div class="sidebar-note"><span class="status-dot"></span> Donna<br><small>Make room for what matters.</small></div>
+    </aside>
+    <main>
+      <section id="overview" class="hero">
+        <div class="eyebrow"><span></span> YOUR EXECUTIVE ASSISTANT</div>
+        <h1>Make space for<br><em>what matters.</em></h1>
+        <p>你好，我是 Donna。把重要的事整理清楚，讓你專心往前走。</p>
+        <a class="hero-link" href="#schedule">查看你的工作空間 <span>↗</span></a>
+        <div class="hero-number" aria-hidden="true">D<span>.</span></div>
+      </section>
+      <section class="intro">
+        <div><span class="section-kicker">A LITTLE MORE CLARITY</span><h2>專注重要的事，<br>其他的交給整理。</h2></div>
+        <p>這裡集中呈現研究專案、日常節奏、能力養成方向和閱讀清單。行程與閱讀內容為發布時的資料快照，並非即時更新。</p>
+      </section>
+      <section id="status" class="content-section">
+        <div class="section-heading"><div><span class="section-kicker">CURRENTLY</span><h2>目前狀態</h2><p>截至 2026 年 11 月 8 日的資料，並非即時更新。</p></div></div>
+        <div class="status-card">
+          <div><span>目前身分</span><strong>物理博士研究者</strong><p>於 CERN 從事研究。</p></div>
+          <div><span>主要研究</span><strong>AMS-02 次鐵核分析</strong><p>聚焦資料分析與模型驗證。</p></div>
+          <div><span>另一項研究</span><strong>NICER 軸子類粒子研究</strong><p>文件記載論文草稿大致完成；後續狀態待確認。</p></div>
+        </div>
+      </section>
+      <section id="projects" class="content-section">
+        <div class="section-heading"><div><span class="section-kicker">CURRENT PROJECTS</span><h2>研究專案</h2><p>以資料、模型和細緻的驗證探索物理問題。</p></div></div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <span>ASTROPARTICLE PHYSICS</span>
+            <h3>AMS-02 次鐵核分析</h3>
+            <p>研究宇宙射線中次鐵核（Z = 21–25），透過探測器資料與模擬探索電荷選擇、碎裂和訊號辨識。</p>
+            <small>研究重點包括選擇效率、模板模型、統計不確定性，以及資料與模擬之間的差異。</small>
+          </article>
+          <article class="skill-card">
+            <span>ASTROPHYSICS</span>
+            <h3>NICER 軸子類粒子研究</h3>
+            <p>運用 NICER 脈衝星觀測資料，探索軸子類粒子相關的物理問題。</p>
+            <small>截至 2026 年 11 月初，論文草稿大致完成；投稿及發表狀態尚待確認。</small>
+          </article>
+        </div>
+      </section>
+      <section id="meetings" class="content-section">
+        <div class="section-heading"><div><span class="section-kicker">WEEKLY MEETINGS</span><h2>固定會議</h2><p>依你提供的固定時段整理，尚未與日曆同步；時區為蘇黎世（Europe/Zurich）。</p></div></div>
+        <div class="document table-wrap">
+          <table>
+            <thead><tr><th scope="col">星期</th><th scope="col">時間</th><th scope="col">會議</th></tr></thead>
+            <tbody>
+              <tr><td>週一至週五</td><td>17:00</td><td>Meeting with Professor Ting</td></tr>
+              <tr><td>週一</td><td>07:00</td><td>Discussion with Professor Yi</td></tr>
+              <tr><td>週二</td><td>09:00</td><td>Discussion with CERN Supervisor</td></tr>
+              <tr><td>週三</td><td>08:30</td><td>AMS Taiwan Group Meeting</td></tr>
+              <tr><td>週四</td><td>09:30</td><td>Nuclei Meeting at CERN</td></tr>
+              <tr><td>週五</td><td>08:30</td><td>Academia Sinica AMS Meeting</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <section id="schedule" class="content-section">
+        <div class="section-heading"><div><span class="section-kicker">01 / YOUR RHYTHM</span><h2>行程與日常</h2><p>你的作息參考與已記錄的排程狀態。</p></div><span class="section-index">01</span></div>
+        <div class="notice">這是文件中的紀錄，不是即時日曆。Google Calendar 快照不包含 CERN Exchange／Outlook 行程；提醒狀態亦未在此獨立驗證。</div>
+        <article id="schedule-content" class="document" aria-live="polite">正在載入行程資料…</article>
+      </section>
+      <section id="skills" class="content-section">
+        <div class="section-heading"><div><span class="section-kicker">02 / LEARN WITH PURPOSE</span><h2>能力養成</h2><p>從實際問題出發，一步一步累積可以運用的能力。</p></div><span class="section-index">02</span></div>
+        <div class="skills-grid">
+          <article class="skill-card"><span>01</span><h3>統計與推論</h3><p>釐清問題、假設和不確定性，練習用資料支持判斷。</p><small>從小型資料分析開始，記錄假設與結論的限制。</small></article>
+          <article class="skill-card"><span>02</span><h3>模型與驗證</h3><p>比較不同方法，理解模型適用的條件和可能的偏差。</p><small>用模擬、診斷圖與敏感度測試檢查結果是否可靠。</small></article>
+          <article class="skill-card"><span>03</span><h3>程式與數值運算</h3><p>建立清楚、可重現的 Python 和 C++ 實作能力。</p><small>將實際工作拆成小步驟，加入測試，再逐步改善效率。</small></article>
+          <article class="skill-card"><span>04</span><h3>思考與表達</h3><p>把複雜問題整理成清楚的選擇、證據與下一步。</p><small>為每個重要結果寫下方法、發現、限制與待解問題。</small></article>
+        </div>
+      </section>
+      <section id="reading" class="content-section">
+        <div class="section-heading"><div><span class="section-kicker">03 / IDEAS TO KEEP</span><h2>閱讀清單</h2><p>讀值得讀的書，留下值得思考的想法。</p></div><span class="section-index">03</span></div>
+        <article id="reading-content" class="document" aria-live="polite">正在載入閱讀資料…</article>
+      </section>
+      <footer><span>DONNA <b>✳</b></span><span>Make room for what matters.</span></footer>
+    </main>
+  </div>
+</body>
+</html>
